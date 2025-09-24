@@ -2419,12 +2419,8 @@ figcaption {
 }
 
 .footer_card_list {
-    grid-column-gap: 1.5rem;
-    grid-row-gap: 1.5rem;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-columns: 1fr;
-    display: grid
+    display: flex;
+    justify-content: center;
 }
 
 .footer_card_wrap {
@@ -2441,10 +2437,12 @@ figcaption {
     border: 1px solid var(--_theme---base-light--2);
     background-color: var(--_theme---base);
     border-radius: 1rem;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     padding: .75rem;
-    display: flex
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .footer_card_icon-wrap {
