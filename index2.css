@@ -4166,7 +4166,9 @@ figcaption {
         aspect-ratio: 2.6/1.2;
         border: 1px solid var(--_theme---base-light--2);
         border-radius: 1rem;
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: relative;
         overflow: clip;
         box-shadow: 0 .25rem .375rem -.125rem #00000014
@@ -4174,9 +4176,8 @@ figcaption {
 
     .bento_m-logo {
         object-fit: cover;
-        width: 100%;
+        width: 75px;
         max-width: none;
-        height: 100%
     }
 
     .testimonial_content-wrap {
