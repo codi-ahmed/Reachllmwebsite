@@ -253,7 +253,7 @@ figcaption {
     justify-content: center;
     align-items: center;
     height: 3rem;
-    padding: .5rem 1.5rem .5rem .5rem;
+    padding: .5rem 1rem .5rem 1rem;
     font-size: 1rem;
     display: flex
 }
@@ -942,7 +942,7 @@ figcaption {
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    max-width: 48rem;
+    max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
     display: flex
