@@ -36,10 +36,10 @@
             height: 0;
         }
 
-        .navbar_hidden {
-            opacity: 0;
+        /* .navbar_hidden {
+            opacity: 1;
             pointer-events: none;
-        }
+        } */
     </style>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -389,7 +389,7 @@ a,
                 }
             </style>
         </div>
-        <nav class="navbar_component navbar_hidden">
+        <nav class="navbar_component ">
             <div class="navbar_bg"></div>
             <div class="padding-global">
                 <div class="navbar_container">
@@ -418,16 +418,16 @@ a,
                                         fill="currentColor"></path>
                                 </svg> -->
                             </div>
-                            <div class="navbar_link-list"><a data-menu-item="" href="#work" class="navbar_link">Our
-                                    work</a><a data-menu-item="" href="#why" class="navbar_link">Why us</a><a
-                                    data-menu-item="" href="#do" class="navbar_link">What we do</a></div>
+                            <div class="navbar_link-list"><a data-menu-item="" href="#work" class="navbar_link">Feature</a><a data-menu-item="" href="#pricing" class="navbar_link">Pricing</a><a
+                                    data-menu-item="" href="#faq" class="navbar_link">FAQ</a><a
+                                    data-menu-item="" href="" class="navbar_link">Support</a></div>
                             <div class="navbar_menu_btn-wrap">
                                 <div class="button-group is-center">
                                     <a href="#work" aria-label="staggering button"
                                         class="button ghost w-inline-block"><img loading="lazy"
                                             src="https://cdn.prod.website-files.com/67f510f568bf33e1f98526f9/682d9cd22525fd261591d5cd_Jordan%20Button.avif"
                                             alt="" class="button-img ghost-2" /><span data-button-animate-chars=""
-                                            class="btn-animate-chars__text ghost">Start Free Trail</span></a>
+                                            class="btn-animate-chars__text ghost">Get Started</span></a>
                                 </div>
                                 <div class="navbar_menu_bg-wrap"><img
                                         src="https://cdn.prod.website-files.com/67f510f568bf33e1f98526f9/67fabdb67642747547da3329_Hero%20Big%20Blob%20Light.svg"
@@ -460,13 +460,13 @@ a,
                                     loading="lazy"
                                     src="https://cdn.prod.website-files.com/67f510f568bf33e1f98526f9/682d9cd22525fd261591d5cd_Jordan%20Button.avif"
                                     alt="" class="button-img ghost-2" /><span data-button-animate-chars=""
-                                    class="btn-animate-chars__text ghost" style="color: white;">Start Free Trial</span></a>
+                                    class="btn-animate-chars__text ghost" style="color: white;">Get Started</span></a>
                         </div>
                         <a href="#" data-cal-namespace="30min" aria-label="staggering button"
                             data-cal-link="jords/30min" class="button is-m-nav w-inline-block"><img loading="lazy"
                                 src="https://cdn.prod.website-files.com/67f510f568bf33e1f98526f9/682d9cd22525fd261591d5cd_Jordan%20Button.avif"
                                 alt="" class="button-img ghost-2" /><span data-button-animate-chars=""
-                                class="btn-animate-chars__text ghost">Start free Trial</span></a><button
+                                class="btn-animate-chars__text ghost">Get Started</span></a><button
                             menu-open-btn="" class="navbar_menu_button">
                             <div class="navbar_menu_button-inner">
                                 <div class="navbar_menu_icon-wrap"><img
@@ -483,8 +483,8 @@ a,
         <div class="progress-bar-wrap">
             <div class="progress-bar"></div>
         </div>
-        <main class="main-wrapper">
-            <section first-trigger="" class="section_hero">
+        <main class="main-wrapper" >
+            <section first-trigger="" class="section_hero" style="padding-top: 3rem;">
                 <div class="padding-global">
                     <div class="container-large">
                         <div class="hero_layout">
@@ -601,7 +601,7 @@ a,
                                 </div>
                                 <div class="hero_c-logo-line"></div>
                                 <div class="hero_c-logo w-embed" style="display: flex; gap: 2px; align-items: center;">
-                                    <img src="assest/grok_logo-removebg-preview.png" alt=""
+                                    <img src="assest/grok-up.png" alt=""
                                         width="25px"><span>Grok</span>
 
                                 </div>
@@ -3554,9 +3554,9 @@ a,
                         <div class="pg_line-middle"></div>
                         <div class="pg_line-bottom"></div>
                     </div>
-                    <div class="container-large">
+                    <div class="container-large" id="pricing">
                         <!-- <div class="spacer-xhuge"></div> -->
-                        <div class="start_layout">
+                        <div class="start_layout" >
                             <div class="h2-wrap">
                                 <div class="head-icon-wrap"><img
                                         src="https://cdn.prod.website-files.com/67f510f568bf33e1f98526f9/68480ae546fda78027ff357a_start-light.avif"
@@ -3585,10 +3585,10 @@ a,
                             <div class="spacer-large"></div>
                            
                             <div class="text-style-tagline"
-                                style="text-align: center; margin-bottom: 5px; display: flex; justify-content: center;  cursor: pointer; ">
-                                <div style="max-width: 300px; display: flex; gap: 5px; background-color: black; color: grey; padding-bottom: 15px; padding-top: 15px; padding-left: 7px; padding-right: 7px; border-radius: 20px; border: 5px solid #e0e0eb;">
-                                     <div id="monthlyBtn" >Monthly Plan /</div>
-                                <div id="yearlyBtn" class="active" >Yearly Plan<span style="font-size: .5rem; ">     Save 33%</span></div>
+                                style="text-align: center; margin-bottom: 5px; display: flex; justify-content: center;  cursor: pointer;  ">
+                                <div style="max-width: 300px; display: flex; gap: 5px;  color: black;   border-radius: 20px; border: 5px solid #e0e0eb;">
+                                     <div id="monthlyBtn" style="padding-bottom: 15px; padding-top: 15px; padding-left: 3px; padding-right: 3px; border-top-left-radius: 15px;  border-bottom-left-radius: 15px;" >Monthly Plan  </div>
+                                <div id="yearlyBtn" class="active-text"  style="padding-bottom: 15px; padding-top: 15px; padding-left: 3px; padding-right: 3px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;" >Yearly Plan<span style="font-size: .5rem; ">     Save 33%</span></div>
                                 </div>
                                 
                             </div>
@@ -3753,7 +3753,7 @@ a,
                 </div>
             </section>
             <div bottom-nav-trigger="" class="navbar_trigger"></div>
-            <section class="section_testimonials">
+            <section class="section_testimonials" id="faq">
                 <div class="custom-padding-global">
                     <div data-wf--pg-line--variant="left" class="pg_line-wrap">
                         <div class="pg_line-top"></div>
@@ -3899,11 +3899,35 @@ a,
                             <p class="footer_p">Join thousands of brands already optimizing for the AI-first future.
                                 Start your 7-day free trial today.
                             </p>
+                             <div class="button-group is-center">
+                                
+                                <a href="#work" aria-label="staggering button"
+                                    class="button ghost w-inline-block"><img loading="lazy"
+                                        src="https://cdn.prod.website-files.com/67f510f568bf33e1f98526f9/682d9cd22525fd261591d5cd_Jordan%20Button.avif"
+                                        alt="" class="button-img ghost-2"><span data-button-animate-chars=""
+                                        class="btn-animate-chars__text ghost"><span
+                                            style="transition-delay: 0s;">S</span><span
+                                            style="transition-delay: 0.01s;">t</span><span
+                                            style="transition-delay: 0.02s;">a</span><span
+                                            style="transition-delay: 0.03s;">r</span><span
+                                            style="transition-delay: 0.04s;">t</span><span
+                                            style="transition-delay: 0.05s;"> </span><span
+                                            style="transition-delay: 0.06s;">F</span><span
+                                            style="transition-delay: 0.07s; white-space: pre;">r</span><span
+                                            style="transition-delay: 0.08s;">e</span><span
+                                            style="transition-delay: 0.09s;">e</span><span
+                                            style="transition-delay: 0.1s;"> </span><span
+                                            style="transition-delay: 0.11s; white-space: pre;">T</span><span
+                                            style="transition-delay: 0.12s;">r</span><span
+                                            style="transition-delay: 0.13s;">i</span><span
+                                            style="transition-delay: 0.14s;">a</span><span
+                                            style="transition-delay: 0.15s;">l</span></span></a>
+                            </div>
                         </div>
                         <div class="spacer-slarge"></div>
                         <div class="footer_mid">
                             <div class="footer_card_list">
-                                <a data-cal-namespace="brand-clarity-workshop"
+                                <div data-cal-namespace="brand-clarity-workshop"
                                     data-cal-link="jords/brand-clarity-workshop" href=""
                                     class="footer_card_wrap w-inline-block">
                                     <div class="footer_card_inner">
@@ -3914,14 +3938,8 @@ a,
                                         <!-- <button>Book an intro Call</button> -->
                                         <p>No sales pitch. Just real talk about your AI visibility goals and challenges.
                                         </p>
-                                    </div>
-                                </a>
-
-
-                                <!-- end con  -->
-                            </div>
-                            <div class="spacer-xmedium"></div>
-                            <div class="button-group is-center"><a href="" data-cal-config=""
+                                        <div class="button-group is-center">
+                                <a href="" data-cal-config=""
                                     data-cal-link="jords/30min" data-cal-namespace="30min"
                                     class="button w-inline-block"><img loading="lazy"
                                         src="assest/Logo.jpg" alt=""
@@ -3948,28 +3966,17 @@ a,
                                                 style="transition-delay: 0.17s;">l</span></span>
                                         <div class="button-subtext">Friendly chat, no pressure</div>
                                     </div>
-                                </a><a href="#work" aria-label="staggering button"
-                                    class="button ghost w-inline-block"><img loading="lazy"
-                                        src="https://cdn.prod.website-files.com/67f510f568bf33e1f98526f9/682d9cd22525fd261591d5cd_Jordan%20Button.avif"
-                                        alt="" class="button-img ghost-2"><span data-button-animate-chars=""
-                                        class="btn-animate-chars__text ghost"><span
-                                            style="transition-delay: 0s;">S</span><span
-                                            style="transition-delay: 0.01s;">t</span><span
-                                            style="transition-delay: 0.02s;">a</span><span
-                                            style="transition-delay: 0.03s;">r</span><span
-                                            style="transition-delay: 0.04s;">t</span><span
-                                            style="transition-delay: 0.05s;"> </span><span
-                                            style="transition-delay: 0.06s;">F</span><span
-                                            style="transition-delay: 0.07s; white-space: pre;">r</span><span
-                                            style="transition-delay: 0.08s;">e</span><span
-                                            style="transition-delay: 0.09s;">e</span><span
-                                            style="transition-delay: 0.1s;"> </span><span
-                                            style="transition-delay: 0.11s; white-space: pre;">T</span><span
-                                            style="transition-delay: 0.12s;">r</span><span
-                                            style="transition-delay: 0.13s;">i</span><span
-                                            style="transition-delay: 0.14s;">a</span><span
-                                            style="transition-delay: 0.15s;">l</span></span></a>
+                                </a>
+                               
                             </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- end con  -->
+                            </div>
+                            <div class="spacer-xmedium"></div>
+                            
                             <div class="spacer-xmedium"></div>
                             <!-- <div class="footer_mid_text-wrap">
                                 <div class="footer_mid_line"></div>
@@ -4081,16 +4088,49 @@ a,
                             <div class="footer_link-list"><a href="/privacy-policy" class="footer_link">Privacy
                                     Policy</a><a href="" target="_blank" class="footer_link">Linkedin</a></div>
                         </div> -->
+                        <div class="footer-b">
+                            <div class="f-b-t">
+                                <div class="b-t-t" >
+                                    <h5 class="btt-text">Dominate<br>Ai Search</h5>
+                                    <a href=""><img src="assest/Logo.jpg" alt="logo" style="width: 75px; border-radius: 20px;"></a>
+                                </div>
+                                <div class="b-t-t-t">
+                                        <div class="btt">
+                                            <p style="font-weight: bolder;">Company/Product</p>
+                                            <a href="">Feature</a>
+                                           
+                                            <a href="#pricing">Pricing</a>
+                                            <a href="#faq">FAQ</a>
+                                             <a href="">Support</a>
+                                        </div>
+                                        <div class="btt">
+                                            <p style="font-weight: bolder;">Follow us</p>
+                                            <a href="">X.COM</a>
+                                            <a href="#work">Linkedin</a>
+                                            
+                                        </div>
+
+                                </div>
+                            </div>
+                            <div class="f-b-b">
+                                <div class="f-b-t-t fbtt">© 2025 ReachLLM. All rights reserved.</div>
+                                <div class="f-b-t-t">
+                                    <a href="">Privacy Policy</a>
+                                    <a href="">Terms of Services</a>
+                                </div>
+                            </div>
+                        </div>
+                    
                     </div>
                 </div>
             </div>
-            <div class="footer_logo_wrap">
-                <!-- <div data-footer-logo="" class="footer_logo-inner"><img
+            <!-- <div class="footer_logo_wrap">
+                <div data-footer-logo="" class="footer_logo-inner"><img
                         src="https://cdn.prod.website-files.com/67f510f568bf33e1f98526f9/6834ada1304b8711292b39bf_Footer%20mark%20light.svg"
                         loading="lazy" width="1440" el-light="" alt="" class="footer_logo" /><img
                         src="https://cdn.prod.website-files.com/67f510f568bf33e1f98526f9/6834af1c4f8ddd95c2e1d8f9_Footer%20mark%20dark.svg"
-                        loading="lazy" width="1440" el-dark="" alt="" class="footer_logo" /></div> -->
-            </div>
+                        loading="lazy" width="1440" el-dark="" alt="" class="footer_logo" /></div>
+            </div> -->
         </footer>
     </div>
     <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67f510f568bf33e1f98526f9"
@@ -5493,15 +5533,15 @@ a,
         const yearlyPlans = document.getElementById("yearlyPlans");
 
         monthlyBtn.addEventListener("click", () => {
-            monthlyBtn.classList.add("active");
-            yearlyBtn.classList.remove("active");
+            monthlyBtn.classList.add("active-text");
+            yearlyBtn.classList.remove("active-text");
             monthlyPlans.classList.add("active");
             yearlyPlans.classList.remove("active");
         });
 
         yearlyBtn.addEventListener("click", () => {
-            yearlyBtn.classList.add("active");
-            monthlyBtn.classList.remove("active");
+            yearlyBtn.classList.add("active-text");
+            monthlyBtn.classList.remove("active-text");
             yearlyPlans.classList.add("active");
             monthlyPlans.classList.remove("active");
         });
