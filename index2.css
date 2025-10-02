@@ -2245,7 +2245,7 @@ figcaption {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        font-family: var(--_typography---tagline--font-family); 
+           font-family: var(--_typography---heading--font-family);
     }
 .start_f_top {
     justify-content: space-between;
